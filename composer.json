@@ -1,0 +1,17 @@
+{
+    "name": "avy/core",
+    "description": "core alias",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Avy\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Picus",
+            "email": "picus.2022@mail.ru"
+        }
+    ],
+    "require": {}
+}
