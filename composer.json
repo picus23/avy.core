@@ -1,5 +1,5 @@
 {
-    "name": "avy.ru/core",
+    "name": "avy_ru/core",
     "description": "core alias",
     "type": "project",
     "autoload": {
