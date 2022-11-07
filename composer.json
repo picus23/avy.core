@@ -1,11 +1,14 @@
 {
-    "name": "avy/core",
+    "name": "avy.ru/core",
     "description": "core alias",
     "type": "project",
     "autoload": {
         "psr-4": {
             "Avy\\Core\\": "src/"
-        }
+        },
+        "files": [
+        	"/home/x/Рабочий стол/avy.private.core/vendor/autoload.php"
+        ]
     },
     "authors": [
         {
