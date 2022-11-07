@@ -1,6 +1,6 @@
 {
     "name": "avy_ru/core",
-    "description": "public alias for avy.core",
+    "description": "public alias for avy.core 1.0.0",
     "type": "project",
     "autoload": {
         "psr-4": {
