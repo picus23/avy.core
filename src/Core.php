@@ -1,20 +1,7 @@
 <?php
 
-namespace Avy\core;
+namespace Avy\Core;
 
-
-class Core {
-
-    function setProps(...$props){
-        
-    }
-
-    function getData(){
-        return [
-            'active' => [],
-            'filter' => [],
-            'table'  => [],
-        ];
-    }
-
+class Core extends \PrivateCore {
+    
 }

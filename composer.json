@@ -8,7 +8,7 @@
             "Avy\\Core\\": "src/"
         },
         "files": [
-        	"/home/x/Рабочий стол/avy.private.core/vendor/autoload.php"
+            "/var/www/core/src/PrivateCore.php"
         ]
     },
     "authors": [
@@ -16,6 +16,5 @@
             "name": "Picus",
             "email": "picus.2022@mail.ru"
         }
-    ],
-    "require": {}
+    ]
 }
