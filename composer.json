@@ -13,15 +13,5 @@
             "name": "Picus",
             "email": "picus.2022@mail.ru"
         }
-    ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/var/www/core"
-        }
-    ],
-    "require": {
-        "private_avy/core": "v1"
-    },
-    "version": "v1.0.5"
+    ]
 }

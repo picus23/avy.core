@@ -4,37 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e84a90f5bb204cc06df918cbde527d44",
-    "packages": [
-        {
-            "name": "private_avy/core",
-            "version": "v1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "/var/www/core",
-                "reference": "fcc78ed64ba71d429becde0e4bd05bfa54aee67b"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "PrivateAvy\\Core\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Picus",
-                    "email": "picus.2022@mail.ru"
-                }
-            ],
-            "description": "private version of core",
-            "transport-options": {
-                "relative": false
-            }
-        }
-    ],
+    "content-hash": "b1f3257c489b8aefb246f14f44d0345f",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
