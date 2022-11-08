@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7d9f4b3e1f240d8338662fa4c4ed9d48",
+    "packages": [
+        {
+            "name": "private_avy/core",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/var/www/core",
+                "reference": "fcc78ed64ba71d429becde0e4bd05bfa54aee67b"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PrivateAvy\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Picus",
+                    "email": "picus.2022@mail.ru"
+                }
+            ],
+            "description": "private version of core",
+            "transport-options": {
+                "relative": false
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

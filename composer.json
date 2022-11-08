@@ -6,15 +6,22 @@
     "autoload": {
         "psr-4": {
             "Avy\\Core\\": "src/"
-        },
-        "files": [
-            "/var/www/core/src/PrivateCore.php"
-        ]
+        }
     },
     "authors": [
         {
             "name": "Picus",
             "email": "picus.2022@mail.ru"
         }
-    ]
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/var/www/core"
+        }
+    ],
+    "require": {
+        "private_avy/core": "*"
+    },
+    "minimum-stability": "dev"
 }

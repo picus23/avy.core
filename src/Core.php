@@ -2,6 +2,8 @@
 
 namespace Avy\Core;
 
-class Core extends \PrivateCore {
+use PrivateAvy\Core\PrivateCore;
+
+class Core extends PrivateCore {
     
 }
