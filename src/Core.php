@@ -1,11 +1,12 @@
 <?php
 
-namespace Avy\Core;
 
-require '/var/www/core/src/PrivateCore.php';
+namespace Avy;
 
-use PrivateAvy\Core\PrivateCore;
+class Core {
+    use tunel;
 
-class Core extends PrivateCore {
-    
+    function __call($name, $arguments){
+        return $this->instance->{$name}($arguments);
+    }
 }

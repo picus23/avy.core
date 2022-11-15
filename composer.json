@@ -1,11 +1,11 @@
 {
     "name": "avy_ru/core",
-    "description": "public alias for avy.core 1.0.0",
+    "description": "public alias for avy.core 1.0.1",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Avy\\Core\\": "src/"
+            "Avy\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,8 @@
             "name": "Picus",
             "email": "picus.2022@mail.ru"
         }
-    ]
+    ],
+    "require": {
+        "di2/container": "^1.2"
+    }
 }
