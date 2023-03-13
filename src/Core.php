@@ -7,6 +7,9 @@ class Core {
     use tunel;
 
     function __call($name, $arguments){
-        return $this->instance->{$name}(...$arguments);
+        if (!empty($arguments) && array_values($arguments) === $arguments)
+            return $this->instance->{$name}(...$arguments);
+        else
+            return $this->instance->{$name}($arguments);
     }
 }
